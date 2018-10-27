@@ -1,7 +1,7 @@
 module Kolidecons
   class Kolidecon
 
-    attr_reader :path, :options, :width, :height, :symbol, :keywords
+    attr_reader :path, :options, :width, :height, :symbol
 
     def initialize(symbol, options = {})
       @symbol = symbol.to_s
@@ -10,8 +10,6 @@ module Kolidecons
         @path = kolidecon["path"]
         @width = kolidecon["width"].to_i
         @height = kolidecon["height"].to_i
-
-        @keywords = kolidecon["keywords"]
 
         @options = options
         @options.merge!({

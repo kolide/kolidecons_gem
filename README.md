@@ -89,17 +89,7 @@ Width is the icon's true width. Based on the svg view box width. _Note, this doe
 
 ##### `height`
 
-Height is the icon's true height. Based on the svg view box height. _Note, this doesn't change if you scale it up with size options, it only is the natural height of the icon_
-
-##### `keywords`
-
-Returns an array of keywords for the icon. The data [comes from the kolidecons repository](https://github.com/kolide/kolidecons/blob/master/lib/data.json). Consider contributing more aliases for the icons.
-
-```rb
-icon = Kolidecons::Kolidecon.new("x")
-icon.keywords
-# ["remove", "close", "delete"]
-```
+Height is the icon's true height. Based on the svg view box height. _Note, this doesn't change if you scale it up with size options, it only is the natural height of the icon.
 
 #### Methods
 

@@ -1,3 +1,3 @@
 # 1.0.0
 
-- First release, it's an kolidecons gem.
+- First release, it's the kolidecons gem.
