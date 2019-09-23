@@ -122,6 +122,11 @@ Kolidecons.sprite_sheet
 # <svg xmlns="http://www.w3.org/2000/svg"><symbol viewBox="0 0 16 16" id="alert">...</svg>
 ```
 
+## Development
+
+If you need to add more icons to this gem, first follow the steps outlined in the kolidecons repo: https://github.com/kolide/kolidecons#changing-adding-or-deleting-icons. 
+Once that is complete, copy the files from the kolidecons repo at `./build/data.json` and `./build/sprite.kolidecons.svg` into the `lib/` directory of this repo.
+
 ## License
 
 (c) 2018 Kolide, Inc.
