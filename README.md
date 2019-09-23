@@ -1,6 +1,6 @@
 # Kolidecons gem
 
-> Kolidecons gem to distribute kolidecons svg
+> Kolidecons gem to distribute kolidecons svg (https://github.com/kolide/kolidecons)
 
 ## Install
 
