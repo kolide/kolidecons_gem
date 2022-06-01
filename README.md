@@ -124,9 +124,9 @@ Kolidecons.sprite_sheet
 
 ## Development
 
-If you need to add more icons to this gem, first follow the steps outlined in the kolidecons repo: https://github.com/kolide/kolidecons#changing-adding-or-deleting-icons. 
+If you need to add more icons to this gem, first follow the steps outlined in the kolidecons repo: https://github.com/kolide/kolidecons#changing-adding-or-deleting-icons.
 Once that is complete, copy the files from the kolidecons repo at `./build/data.json` and `./build/sprite.kolidecons.svg` into the `lib/` directory of this repo.
 
 ## License
 
-(c) 2018 Kolide, Inc.
+(c) 2022 Kolide, Inc.
