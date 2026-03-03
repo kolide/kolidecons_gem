@@ -1,6 +1,7 @@
 module Kolidecons
-  class Kolidecon
+  class KolideconNotFoundError < StandardError; end
 
+  class Kolidecon
     attr_reader :path, :options, :width, :height, :symbol
 
     def initialize(symbol, options = {})
@@ -20,7 +21,7 @@ module Kolidecons
         @options.merge!(size)
         @options.merge!(a11y)
       else
-        raise "Couldn't find kolidecon symbol for #{@symbol.inspect}"
+        raise KolideconNotFoundError.new "Couldn't find kolidecon symbol for #{@symbol.inspect}"
       end
     end
 
